@@ -1,0 +1,46 @@
+
+
+body{
+  background: @main-bg;
+}
+
+header{
+  h1{
+    color: @ectoslime;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+  }
+
+ .title{
+  font-size: 40px;
+  color: @ghost;
+  text-align: center;
+  margin: auto 25%;
+  font-family: 'Permanent Marker', cursive;
+  }
+
+  .fiction{
+    color: @ghost;
+    border: 5px outset @ectoslime;
+    text-align: center;
+    font-size: 25px;
+    width: 40%;
+    margin: 1% 30%;
+    border-radius: 20%;
+    animation: blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+  from,
+  25% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
+}
+
+
+  

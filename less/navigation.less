@@ -1,0 +1,23 @@
+// Navigation Styles here
+
+.top-nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.top-nav a{
+   border: 7px outset @wind;
+   background: @navigation-bg;
+   font-size: 30px;
+   margin: 10px 20px;
+   padding: 1%;
+   border-radius: 40%;
+   
+   &:hover{
+      background: lighten(@navigation-bg, 30%);
+      border: 5px inset @wind;
+   }
+}
+
+
